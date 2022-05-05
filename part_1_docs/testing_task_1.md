@@ -16,7 +16,7 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-  # This would fail after card.value there is an assignment operator (=) rather than an equal comparison operator (==)
+  # This would fail after card.value there is an assignment operator (=) rather than an equal comparison operator (==). Also, the colon is missing after "else"
   def check_for_ace(self, card):
     if card.value = 1:
       return True
