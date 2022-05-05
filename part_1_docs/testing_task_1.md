@@ -14,6 +14,7 @@ Only comment on errors that would stop the tests running.
 
 ```python
 
+# CardGame needs an init to hold cards
 class CardGame:
 
   # This would fail after card.value there is an assignment operator (=) rather than an equal comparison operator (==). Also, the colon is missing after "else"
