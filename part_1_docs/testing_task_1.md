@@ -31,7 +31,7 @@ class CardGame:
     return card2
   
 
-  # This would fail because the return is inside of the loop, so the function would exit at the end of the first iteration regardless of the number of cards
+  # This would fail because the return is inside of the loop, so the function would exit at the end of the first iteration regardless of the number of cards. Also, the indentation is not correct.
 def cards_total(self, cards):
   total
   for card in cards:
